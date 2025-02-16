@@ -8,6 +8,13 @@ import productRouter from './routes/productRoute.js'
 import cartRouter from './routes/cartRouter.js'
 import orderRouter from './routes/orderRoute.js'
 
+process.on("uncaughtException", (err) => {
+    console.error("Uncaught Exception:", err);
+});
+
+process.on("unhandledRejection", (reason, promise) => {
+    console.error("Unhandled Rejection:", reason);
+});
 
 //App config
 const app=express()
