@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import {assets} from '../assets/assets'
+import {assets} from '../../public/assets/assets'
 import { Link } from 'react-router-dom'
 import { useContext, useState } from 'react'
 import { ShopContext } from '../Context/ShopContext'

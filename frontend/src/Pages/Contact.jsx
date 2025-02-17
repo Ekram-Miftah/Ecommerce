@@ -1,6 +1,6 @@
 import NewsLetterBox from "../Component/NewsLetterBox"
 import Title from "../Component/Title"
-import {assets} from '../assets/assets'
+import {assets} from '../../public/assets/assets'
 
 const Contact = () => {
   return (

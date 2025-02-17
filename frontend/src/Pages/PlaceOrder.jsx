@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { assets } from "../assets/assets";
+import { assets } from "../../public/assets/assets";
 import Carttotal from "../Component/Carttotal";
 import Title from "../Component/Title";
 import { ShopContext } from "../Context/ShopContext";

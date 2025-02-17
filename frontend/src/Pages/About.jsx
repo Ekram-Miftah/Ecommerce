@@ -1,4 +1,4 @@
-import { assets } from "../assets/assets";
+import { assets } from "../../public/assets/assets";
 import Title from "../Component/Title";
 import NewsLetterBox  from "../Component/NewsLetterBox"
 
