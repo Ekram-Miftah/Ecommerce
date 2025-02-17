@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import Title from "../Component/Title";
-import { assets } from "../../public/assets/assets";
+// import { assets } from "../../public/assets/assets";
 import Carttotal from "../Component/Carttotal";
 
 const Cart = () => {
@@ -78,7 +78,7 @@ const Cart = () => {
               />
               <img
                 onClick={() => updateQuantity(item._id, item.size, 0)}
-                src={assets.bin_icon}
+                src="/assets/bin_icon.png"
                 className="w-4 mr-4 sm:w-5 cursor-pointer"
                 alt=""
               />

@@ -1,6 +1,6 @@
 import { useContext,useEffect,useState } from "react"
 import { ShopContext } from "../Context/ShopContext";
-import { assets } from "../../public/assets/assets";
+// import { assets } from "../../public/assets/assets";
 import Title from "../Component/Title";
 import Productitem from "../Component/Productitem";
 
@@ -91,7 +91,7 @@ const sortProducts=()=>{
       {/*filter Options*/}
       <div className="min-w-60">
         <p onClick={()=>setShowFilter(!showFilter)}  className="my-2 text-xl flex items-center cursor-pointer gap-2">FILTERS</p>
-        <img src={assets.dropdown_icon} className={`h-3 sm:hidden ${showFilter ? 'rotate-90': ''}`} alt="" />
+        <img src="assets/dropdown_icon.png" className={`h-3 sm:hidden ${showFilter ? 'rotate-90': ''}`} alt="" />
         {/*Catogory Filter*/}
         <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter?'':'hidden'}  sm:block`}>
           <p className="mb-3 text-sm font-medium">CATAGORIES</p>

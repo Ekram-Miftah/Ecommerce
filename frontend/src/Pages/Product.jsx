@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 import { ShopContext } from "../Context/ShopContext";
-import { assets } from "../../public/assets/assets";
+// import { assets } from "../../public/assets/assets";
 import RelatedProducts from "../Component/RelatedProducts";
 
 
@@ -55,12 +55,12 @@ useEffect(()=>{
       <div className="flex-1">
         <h1 className="font-medium text-2xl mt-2">{productData.name}</h1>
         <div className="flex items-center gap-1 mt-2">
-          <img src={assets.star_icon} alt="" className="w-3 5" />
-          <img src={assets.star_icon} alt="" className="w-3 5" />
-          <img src={assets.star_icon} alt="" className="w-3 5" />
-          <img src={assets.star_icon} alt="" className="w-3 5" />
-          <img src={assets.star_dull_icon} alt="" className="w-3 5" />
-          <p className="pl-2">(122)</p>
+          <img src="/assets/star_icon.png" alt="" className="w-3 5" />
+          <img src="/assets/star_icon.png" alt="" className="w-3 5" />
+          <img src="/assets/star_icon.png"alt="" className="w-3 5" />
+          <img src="/assets/star_icon.png"alt="" className="w-3 5" />
+          <img src="assets/star_icon.png" alt="" className="w-3 5" />
+          <p className="pl-2"></p>
 
         </div>
         <p className="mt-5 text-3xl font-medium"   >{currency}{productData.price}</p>
@@ -99,7 +99,7 @@ useEffect(()=>{
       <div className="mt-20">
         <div className="flex">
           <b className="border px-5 py-3 text-sm"> Description</b>
-          <p className="border px-5 py-3 text-sm">Reviews (122)</p>
+          <p className="border px-5 py-3 text-sm">Reviews </p>
         </div>
         <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
           <p>Ambassador Suit Collection

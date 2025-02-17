@@ -1,4 +1,4 @@
-import { assets } from "../../public/assets/assets";
+//import { assets } from "../../public/assets/assets";
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
       {/*Hero Right side*/}
       <video
         className="w-full sm:w-1/2"
-        src={assets.hero_vid}
+        src="/assets/hero_img.mp4"
         autoPlay
         loop
         muted

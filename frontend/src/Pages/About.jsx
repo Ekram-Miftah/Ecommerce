@@ -1,4 +1,4 @@
-import { assets } from "../../public/assets/assets";
+// import { assets } from "../../public/assets/assets";
 import Title from "../Component/Title";
 import NewsLetterBox  from "../Component/NewsLetterBox"
 
@@ -7,7 +7,7 @@ const About = () => {
     <div className="text-2xl  text-center pt-8 border-t">
       <Title text1={"ABOUT"} text2={"US"} />
       <div className="my-10 flex flex-col md:flex-row gap-16">
-        <img src={assets.about_img} className="w-full md:max-w-[450px]" />
+        <img src="/assets/about_img.png" className="w-full md:max-w-[450px]" />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p className="text-sm">
             Welcome to Ambassador Suit, where sophistication meets timeless
