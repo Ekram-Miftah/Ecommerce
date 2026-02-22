@@ -1,6 +1,6 @@
 # 🛒 ProShop E-Commerce | Full-Stack MERN Application
 
-Live Demo:https://y-alpha-ebon.vercel.app
+**Live Demo**:https://y-alpha-ebon.vercel.app
 
 
 A sophisticated, end-to-end e-commerce solution designed for seamless shopping and robust inventory management.
@@ -10,17 +10,29 @@ This project demonstrates high-level proficiency in database architecture, secur
 ## 📸 Visual Preview
 
 <img width="1356" height="610" alt="0" src="https://github.com/user-attachments/assets/8be170ea-1e44-4711-a7d7-40f3c602aca6" />
+<img width="1334" height="618" alt="2" src="https://github.com/user-attachments/assets/c966c50b-4e2a-43d7-8e6e-ce1f11cf58f2" />
+<img width="1366" height="581" alt="3" src="https://github.com/user-attachments/assets/b8e4e8b9-5d60-49ee-82c4-46594e8a94ec" />
+<img width="1328" height="607" alt="4" src="https://github.com/user-attachments/assets/b87e570f-98d7-418d-b6a4-b6887664b8a3" />
+<img width="1331" height="463" alt="5" src="https://github.com/user-attachments/assets/991f0124-9188-48d6-8759-3b8b2825a78f" />
 
 
 
 
 
 
-Admin Dashboard |
-| :---: | :---: |
-| ![Customer View](PASTE_URL_HERE) | ![Admin Panel](PASTE_URL_HERE) |
 
----
+
+
+
+**Admin Dashboard**
+## 📸 Visual Preview
+
+<img width="1355" height="665" alt="image" src="https://github.com/user-attachments/assets/a14c6ff4-c354-4415-8ba7-c288ca0bdca0" />
+<img width="1350" height="662" alt="image" src="https://github.com/user-attachments/assets/e1d4985b-6b0b-483d-884c-0458a97795d1" />
+<img width="1356" height="624" alt="image" src="https://github.com/user-attachments/assets/36f4f706-dbbd-4651-8324-16a0789922fd" />
+
+
+
 
 ## 🚀 Core Features
 
