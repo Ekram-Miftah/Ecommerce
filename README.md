@@ -24,7 +24,7 @@ This project demonstrates high-level proficiency in database architecture, secur
 
 
 
-**Admin Dashboard**
+## **Admin Dashboard**
 ## 📸 Visual Preview
 
 <img width="1355" height="665" alt="image" src="https://github.com/user-attachments/assets/a14c6ff4-c354-4415-8ba7-c288ca0bdca0" />
