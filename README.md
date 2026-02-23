@@ -68,5 +68,12 @@ This project demonstrates high-level proficiency in database architecture, secur
 1. Clone the repo: `git clone https://github.com`
 2. Install Backend Dependencies: `npm install`
 3. Install Frontend Dependencies: `cd frontend && npm install`
-4. Environment Variables: Create a `.env` file and add your `MONGO_URI` and `JWT_SECRET`.
+4. Environment Variables: Create a `.env` file and add your
+MONGODB_URI=
+CLOUDINARY_API_KEY=
+CLOUDINARY_SECRET_KEY=
+CLOUDINARY_NAME=
+JWT_SECRET=
+ADMIN_EMAIL=
+ADMIN_PASSWORD=.
 5. Run the App: `npm run dev`
